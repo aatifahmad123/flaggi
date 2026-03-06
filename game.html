@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flaggi Game - Guess the Country</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Confetti Library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Flaggi</h1>
+            <nav>
+                <a href="index.html">All Flags</a>
+                <a href="game.html" class="active">Guessing Game</a>
+            </nav>
+            <p class="credits" style="margin-top: 1rem; margin-bottom: 0; font-size: 0.9rem;">
+                Made by <strong><a href="https://aatifahmad123.dev/" target="_blank" rel="noopener noreferrer"
+                        style="color: var(--text-primary); text-decoration: none;">Aatif
+                        Ahmad</a></strong> | Thanks to <a href="https://flagpedia.net" target="_blank"
+                    rel="noopener noreferrer"
+                    style="color: var(--accent-color); text-decoration: none; font-weight: bold;">flagpedia.net</a> for
+                images and codes
+            </p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="game-container" id="game-area">
+            <div class="game-flag-display">
+                <img id="guessing-flag" src="" alt="Guess this flag">
+            </div>
+
+            <div class="input-group">
+                <label for="country-input">What country is this?</label>
+                <input type="text" id="country-input" class="input-box" placeholder="Start typing..."
+                    autocomplete="off">
+                <ul id="suggestions" class="suggestions-list"></ul>
+                <!-- Submit button removed for auto-submit -->
+            </div>
+
+            <div id="feedback" class="feedback"></div>
+
+            <div class="game-controls">
+                <button id="next-btn" class="btn btn-secondary visible" style="display: none;">Next Flag</button>
+                <button id="reveal-btn" class="btn btn-reveal visible" style="margin-top: 1rem;">Reveal Answer</button>
+            </div>
+        </div>
+    </main>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
