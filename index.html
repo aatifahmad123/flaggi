@@ -17,22 +17,28 @@
                 <a href="index.html" class="active">All Flags</a>
                 <a href="game.html">Guessing Game</a>
             </nav>
-            <p class="credits" style="margin-top: 1rem; margin-bottom: 0; font-size: 0.9rem;">
-                Made by <strong><a href="https://aatifahmad123.dev/" target="_blank" rel="noopener noreferrer"
-                        style="color: var(--text-primary); text-decoration: none;">Aatif
-                        Ahmad</a></strong> | Thanks to <a href="https://flagpedia.net" target="_blank"
-                    rel="noopener noreferrer"
-                    style="color: var(--accent-color); text-decoration: none; font-weight: bold;">flagpedia.net</a> for
-                images and codes
-            </p>
         </div>
     </header>
 
     <main class="container">
+        <div class="filter-controls" style="display: flex; justify-content: center; gap: 1rem; margin-bottom: 2rem;">
+            <button id="filter-all" class="filter-btn active">All 254 Countries/Regions</button>
+            <button id="filter-sovereign" class="filter-btn">195 Sovereign States</button>
+        </div>
         <div id="flag-grid" class="flag-grid">
             <!-- Flags will be injected here by app.js -->
         </div>
     </main>
+
+    <footer>
+        <p class="credits" style="margin: 0; font-size: 0.9rem;">
+            Made by <strong><a href="https://aatifahmad123.dev/" target="_blank" rel="noopener noreferrer"
+                    style="color: var(--text-primary); text-decoration: none;">Aatif Ahmad</a></strong> | Thanks to <a
+                href="https://flagpedia.net" target="_blank" rel="noopener noreferrer"
+                style="color: var(--accent-color); text-decoration: none; font-weight: bold;">flagpedia.net</a> for
+            images and codes
+        </p>
+    </footer>
 
 
 

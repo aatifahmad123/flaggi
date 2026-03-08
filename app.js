@@ -1,36 +1,67 @@
-// Global state
-let codesData = {};
-let allCountriesList = [];
+const state = {
+    allCountries: [],
+    sovereignCountries: [],
+    currentList: [],
+    isSovereignMode: false
+};
 
 // Initialize app
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('codes.json')
-        .then(response => response.json())
-        .then(data => {
-            codesData = data;
+    Promise.all([
+        fetch('codes.json').then(res => res.json()),
+        fetch('codes_sovereign.json').then(res => res.json())
+    ]).then(([allData, sovereignData]) => {
 
-            // Create an array sorted alphabetically by country name
-            allCountriesList = Object.keys(data).map(code => ({
-                code: code,
-                name: data[code]
-            })).sort((a, b) => a.name.localeCompare(b.name));
+        state.allCountries = Object.keys(allData).map(code => ({
+            code: code,
+            name: allData[code]
+        })).sort((a, b) => a.name.localeCompare(b.name));
 
-            // Determine which page we are on
-            if (document.getElementById('flag-grid')) {
-                initFlagGrid();
-            } else if (document.getElementById('guessing-flag')) {
-                initGame();
-            }
-        })
-        .catch(err => console.error('Error loading codes.json:', err));
+        state.sovereignCountries = Object.keys(sovereignData).map(code => ({
+            code: code,
+            name: sovereignData[code]
+        })).sort((a, b) => a.name.localeCompare(b.name));
+
+        // Determine which page we are on
+        if (document.getElementById('flag-grid')) {
+            initFlagGrid();
+        } else if (document.getElementById('guessing-flag')) {
+            state.isSovereignMode = true; // Game mode defaults to sovereign only
+            initGame();
+        }
+    }).catch(err => console.error('Error loading data:', err));
 });
 
 /* --- Page 1: Flag Grid --- */
 function initFlagGrid() {
     const grid = document.getElementById('flag-grid');
-    grid.innerHTML = ''; // Clear loading state if any
+    const filterAll = document.getElementById('filter-all');
+    const filterSovereign = document.getElementById('filter-sovereign');
 
-    allCountriesList.forEach(country => {
+    if (filterAll && filterSovereign) {
+        filterAll.addEventListener('click', () => {
+            state.isSovereignMode = false;
+            filterAll.classList.add('active');
+            filterSovereign.classList.remove('active');
+            renderGrid(grid);
+        });
+
+        filterSovereign.addEventListener('click', () => {
+            state.isSovereignMode = true;
+            filterSovereign.classList.add('active');
+            filterAll.classList.remove('active');
+            renderGrid(grid);
+        });
+    }
+
+    renderGrid(grid);
+}
+
+function renderGrid(grid) {
+    grid.innerHTML = ''; // Clear existing
+    state.currentList = state.isSovereignMode ? state.sovereignCountries : state.allCountries;
+
+    state.currentList.forEach(country => {
         const card = document.createElement('div');
         card.className = 'flag-card';
 
@@ -101,8 +132,9 @@ function initGame() {
 }
 
 function loadRandomFlag() {
-    const randomIndex = Math.floor(Math.random() * allCountriesList.length);
-    currentTargetCountry = allCountriesList[randomIndex];
+    state.currentList = state.isSovereignMode ? state.sovereignCountries : state.allCountries;
+    const randomIndex = Math.floor(Math.random() * state.currentList.length);
+    currentTargetCountry = state.currentList[randomIndex];
 
     const img = document.getElementById('guessing-flag');
     img.src = `w640/${currentTargetCountry.code}.png`;
@@ -118,7 +150,8 @@ function handleInput(e) {
     }
 
     // Filter countries matching input
-    const matches = allCountriesList.filter(country =>
+    state.currentList = state.isSovereignMode ? state.sovereignCountries : state.allCountries;
+    const matches = state.currentList.filter(country =>
         country.name.toLowerCase().includes(value)
     ).slice(0, 5); // Limit to top 5 suggestions
 

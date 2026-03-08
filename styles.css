@@ -84,6 +84,34 @@ nav a.active {
     color: var(--card-bg);
 }
 
+.filter-btn {
+    text-decoration: none;
+    color: var(--text-primary);
+    background-color: var(--bg-color);
+    padding: 0.35rem 1rem;
+    font-weight: 500;
+    font-size: 1rem;
+    border: 2px solid var(--border-color);
+    border-radius: 4px;
+    box-shadow: 3px 3px 0px var(--border-color);
+    transition: all 0.1s ease;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.filter-btn:hover {
+    transform: translate(-1px, -1px);
+    box-shadow: 4px 4px 0px var(--border-color);
+}
+
+.filter-btn:active,
+.filter-btn.active {
+    transform: translate(1px, 1px);
+    box-shadow: 1px 1px 0px var(--border-color);
+    background-color: var(--accent-color);
+    color: var(--card-bg);
+}
+
 /* --- Page 1: Flag Grid --- */
 .flag-grid {
     display: grid;
@@ -364,6 +392,17 @@ footer a:hover {
     }
 
     /* Page 1: Flag Grid */
+    .filter-controls {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .filter-btn {
+        width: 100%;
+        text-align: center;
+    }
+
     .flag-grid {
         grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
         gap: 1rem;

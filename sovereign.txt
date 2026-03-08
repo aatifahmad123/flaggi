@@ -1,0 +1,196 @@
+#	Flag	Country	Population	Total area
+Flag of Afghanistan	Afghanistan	32 225 560	652 230 km2
+Flag of Albania	Albania	2 862 427	28 748 km2
+Flag of Algeria	Algeria	43 000 000	2 381 740 km2
+Flag of Andorra	Andorra	77 543	468 km2
+Flag of Angola	Angola	31 127 674	1 246 700 km2
+Flag of Antigua and Barbuda	Antigua and Barbuda	96 453	442 km2
+Flag of Argentina	Argentina	44 938 712	2 780 400 km2
+Flag of Armenia	Armenia	2 957 500	29 743 km2
+Flag of Australia	Australia	25 627 280	7 692 020 km2
+Flag of Austria	Austria	8 902 600	83 871 km2
+Flag of Azerbaijan	Azerbaijan	10 067 108	86 600 km2
+Flag of Bahamas	Bahamas	385 340	13 943 km2
+Flag of Bahrain	Bahrain	1 543 300	778 km2
+Flag of Bangladesh	Bangladesh	168 163 758	147 570 km2
+Flag of Barbados	Barbados	287 025	430 km2
+Flag of Belarus	Belarus	9 413 446	207 600 km2
+Flag of Belgium	Belgium	11 522 169	30 528 km2
+Flag of Belize	Belize	408 487	22 966 km2
+Flag of Benin	Benin	11 733 059	114 763 km2
+Flag of Bhutan	Bhutan	741 672	38 394 km2
+Flag of Bolivia	Bolivia	11 469 896	1 098 580 km2
+Flag of Bosnia and Herzegovina	Bosnia and Herzegovina	3 301 000	51 209 km2
+Flag of Botswana	Botswana	2 338 851	581 730 km2
+Flag of Brazil	Brazil	211 173 432	8 515 770 km2
+Flag of Brunei	Brunei	442 400	5 765 km2
+Flag of Bulgaria	Bulgaria	7 000 039	111 002 km2
+Flag of Burkina Faso	Burkina Faso	20 870 060	274 222 km2
+Flag of Burundi	Burundi	10 953 317	27 834 km2
+Flag of Cambodia	Cambodia	15 288 489	181 035 km2
+Flag of Cameroon	Cameroon	25 876 000	475 442 km2
+Flag of Canada	Canada	37 935 814	9 984 670 km2
+Flag of Cape Verde	Cape Verde	550 483	4 033 km2
+Flag of Central African Republic	Central African Republic	5 496 011	622 984 km2
+Flag of Chad	Chad	15 692 969	1 284 000 km2
+Flag of Chile	Chile	19 107 216	756 102 km2
+Flag of China	China	1 401 492 920	9 596 960 km2
+Flag of Colombia	Colombia	49 395 678	1 141 750 km2
+Flag of Comoros	Comoros	873 724	1 862 km2
+Flag of Republic of the Congo	Republic of the Congo	5 380 508	342 000 km2
+Flag of DR Congo	DR Congo	86 790 567	2 344 860 km2
+Flag of Costa Rica	Costa Rica	5 058 007	51 100 km2
+Flag of Côte d'Ivoire (Ivory Coast)	Côte d'Ivoire	25 823 071	322 463 km2
+Flag of Croatia	Croatia	4 076 246	56 594 km2
+Flag of Cuba	Cuba	11 209 628	109 884 km2
+Flag of Cyprus	Cyprus	875 900	9 251 km2
+Flag of Czechia	Czechia	10 681 161	78 865 km2
+Flag of Denmark	Denmark	5 822 763	43 094 km2
+Flag of Djibouti	Djibouti	1 078 373	23 200 km2
+Flag of Dominica	Dominica	71 808	751 km2
+Flag of Dominican Republic	Dominican Republic	10 358 320	48 671 km2
+Flag of Ecuador	Ecuador	17 431 712	276 841 km2
+Flag of Egypt	Egypt	100 052 943	1 002 450 km2
+Flag of El Salvador	El Salvador	6 704 864	21 041 km2
+Flag of Equatorial Guinea	Equatorial Guinea	1 358 276	28 051 km2
+Flag of Eritrea	Eritrea	3 497 117	117 600 km2
+Flag of Estonia	Estonia	1 328 360	45 227 km2
+Flag of Eswatini (Swaziland)	Eswatini	1 093 238	17 364 km2
+Flag of Ethiopia	Ethiopia	98 665 000	1 104 300 km2
+Flag of Fiji	Fiji	884 887	18 272 km2
+Flag of Finland	Finland	5 527 573	338 424 km2
+Flag of France	France	67 064 000	640 679 km2
+Flag of Gabon	Gabon	2 172 579	267 668 km2
+Flag of Gambia	Gambia	2 347 706	11 295 km2
+Flag of Georgia	Georgia	3 723 464	69 700 km2
+Flag of Germany	Germany	83 149 300	357 114 km2
+Flag of Ghana	Ghana	30 280 811	238 533 km2
+Flag of Greece	Greece	10 724 599	131 957 km2
+Flag of Grenada	Grenada	112 003	344 km2
+Flag of Guatemala	Guatemala	16 604 026	108 889 km2
+Flag of Guinea	Guinea	12 218 357	245 857 km2
+Flag of Guinea-Bissau	Guinea-Bissau	1 604 528	36 125 km2
+Flag of Guyana	Guyana	782 766	214 969 km2
+Flag of Haiti	Haiti	11 577 779	27 750 km2
+Flag of Honduras	Honduras	9 158 345	112 492 km2
+Flag of Hungary	Hungary	9 772 756	93 028 km2
+Flag of Iceland	Iceland	364 260	103 000 km2
+Flag of India	India	1 359 072 550	3 287 260 km2
+Flag of Indonesia	Indonesia	266 911 900	1 910 930 km2
+Flag of Iran	Iran	83 230 120	1 648 200 km2
+Flag of Iraq	Iraq	39 127 900	438 317 km2
+Flag of Ireland	Ireland	4 921 500	70 273 km2
+Flag of Israel	Israel	9 164 160	20 770 km2
+Flag of Italy	Italy	60 247 214	301 339 km2
+Flag of Jamaica	Jamaica	2 726 667	10 991 km2
+Flag of Japan	Japan	126 010 000	377 975 km2
+Flag of Jordan	Jordan	10 622 608	89 342 km2
+Flag of Kazakhstan	Kazakhstan	18 651 680	2 724 900 km2
+Flag of Kenya	Kenya	47 564 296	580 367 km2
+Flag of Kiribati	Kiribati	120 100	811 km2
+Flag of North Korea	North Korea	25 450 000	120 540 km2
+Flag of South Korea	South Korea	51 780 579	100 210 km2
+Flag of Kuwait	Kuwait	4 420 110	17 818 km2
+Flag of Kyrgyzstan	Kyrgyzstan	6 490 300	199 951 km2
+Flag of Laos	Laos	7 123 205	236 800 km2
+Flag of Latvia	Latvia	1 906 800	64 559 km2
+Flag of Lebanon	Lebanon	6 855 713	10 452 km2
+Flag of Lesotho	Lesotho	2 007 201	30 355 km2
+Flag of Liberia	Liberia	4 475 353	111 369 km2
+Flag of Libya	Libya	6 777 452	1 759 540 km2
+Flag of Liechtenstein	Liechtenstein	38 557	160 km2
+Flag of Lithuania	Lithuania	2 793 350	65 300 km2
+Flag of Luxembourg	Luxembourg	613 894	2 586 km2
+Flag of Madagascar	Madagascar	25 680 342	587 041 km2
+Flag of Malawi	Malawi	17 563 749	118 484 km2
+Flag of Malaysia	Malaysia	32 700 760	330 803 km2
+Flag of Maldives	Maldives	374 775	300 km2
+Flag of Mali	Mali	19 973 000	1 240 190 km2
+Flag of Malta	Malta	493 559	316 km2
+Flag of Marshall Islands	Marshall Islands	55 500	181 km2
+Flag of Mauritania	Mauritania	4 077 347	1 030 700 km2
+Flag of Mauritius	Mauritius	1 265 985	2 040 km2
+Flag of Mexico	Mexico	126 577 691	1 964 380 km2
+Flag of Micronesia	Micronesia	104 468	702 km2
+Flag of Moldova	Moldova	2 681 735	33 846 km2
+Flag of Monaco	Monaco	38 300	2.02 km2
+Flag of Mongolia	Mongolia	3 304 526	1 564 110 km2
+Flag of Montenegro	Montenegro	622 359	13 812 km2
+Flag of Morocco	Morocco	35 821 024	446 550 km2
+Flag of Mozambique	Mozambique	28 571 310	801 590 km2
+Flag of Myanmar	Myanmar	54 339 766	676 578 km2
+Flag of Namibia	Namibia	2 458 936	825 615 km2
+Flag of Nauru	Nauru	11 000	21 km2
+Flag of Nepal	Nepal	29 609 623	147 181 km2
+Flag of Netherlands	Netherlands	17 438 081	41 850 km2
+Flag of New Zealand	New Zealand	4 961 213	270 467 km2
+Flag of Nicaragua	Nicaragua	6 460 411	130 373 km2
+Flag of Niger	Niger	22 314 743	1 267 000 km2
+Flag of Nigeria	Nigeria	200 963 599	923 768 km2
+Flag of North Macedonia	North Macedonia	2 077 132	25 713 km2
+Flag of Norway	Norway	5 356 789	323 802 km2
+Flag of Oman	Oman	4 664 790	309 500 km2
+Flag of Pakistan	Pakistan	218 741 520	907 132 km2
+Flag of Palau	Palau	17 900	459 km2
+Flag of Palestine	Palestine	5 051 953	6 020 km2
+Flag of Panama	Panama	4 218 808	75 417 km2
+Flag of Papua New Guinea	Papua New Guinea	8 935 000	462 840 km2
+Flag of Paraguay	Paraguay	7 152 703	406 752 km2
+Flag of Peru	Peru	32 131 400	1 285 220 km2
+Flag of Philippines	Philippines	108 323 702	300 000 km2
+Flag of Poland	Poland	38 386 000	312 696 km2
+Flag of Portugal	Portugal	10 276 617	92 090 km2
+Flag of Qatar	Qatar	2 747 282	11 586 km2
+Flag of Romania	Romania	19 405 156	238 397 km2
+Flag of Russia	Russia	146 780 720	17 098 200 km2
+Flag of Rwanda	Rwanda	12 374 397	26 338 km2
+Flag of Saint Kitts and Nevis	Saint Kitts and Nevis	52 823	261 km2
+Flag of Saint Lucia	Saint Lucia	178 696	616 km2
+Flag of Saint Vincent and the Grenadines	Saint Vincent and the Grenadines	110 608	389 km2
+Flag of Samoa	Samoa	200 874	2 842 km2
+Flag of San Marino	San Marino	33 574	61 km2
+Flag of São Tomé and Príncipe	São Tomé and Príncipe	201 784	964 km2
+Flag of Saudi Arabia	Saudi Arabia	34 218 169	2 149 690 km2
+Flag of Senegal	Senegal	16 209 125	196 722 km2
+Flag of Serbia	Serbia	6 963 764	88 361 km2
+Flag of Seychelles	Seychelles	97 625	452 km2
+Flag of Sierra Leone	Sierra Leone	7 901 454	71 740 km2
+Flag of Singapore	Singapore	5 703 600	716 km2
+Flag of Slovakia	Slovakia	5 456 362	49 037 km2
+Flag of Slovenia	Slovenia	2 094 060	20 273 km2
+Flag of Solomon Islands	Solomon Islands	680 806	28 896 km2
+Flag of Somalia	Somalia	15 442 905	637 657 km2
+Flag of South Africa	South Africa	58 775 022	1 221 040 km2
+Flag of South Sudan	South Sudan	12 778 250	644 329 km2
+Flag of Spain	Spain	47 100 396	505 992 km2
+Flag of Sri Lanka	Sri Lanka	21 803 000	65 610 km2
+Flag of Sudan	Sudan	42 295 645	1 861 480 km2
+Flag of Suriname	Suriname	581 372	163 820 km2
+Flag of Sweden	Sweden	10 327 589	450 295 km2
+Flag of Switzerland	Switzerland	8 586 550	41 284 km2
+Flag of Syria	Syria	17 070 135	185 180 km2
+Flag of Tajikistan	Tajikistan	9 127 000	143 100 km2
+Flag of Tanzania	Tanzania	55 890 747	945 087 km2
+Flag of Thailand	Thailand	66 474 267	513 120 km2
+Flag of Timor-Leste	Timor-Leste	1 387 149	14 919 km2
+Flag of Togo	Togo	7 538 000	56 785 km2
+Flag of Tonga	Tonga	100 651	747 km2
+Flag of Trinidad and Tobago	Trinidad and Tobago	1 363 985	5 130 km2
+Flag of Tunisia	Tunisia	11 722 038	163 610 km2
+Flag of Turkey	Turkey	83 154 997	783 562 km2
+Flag of Turkmenistan	Turkmenistan	5 942 089	488 100 km2
+Flag of Tuvalu	Tuvalu	10 200	26 km2
+Flag of Uganda	Uganda	40 299 300	241 550 km2
+Flag of Ukraine	Ukraine	41 902 416	603 500 km2
+Flag of United Arab Emirates	United Arab Emirates	9 770 529	83 600 km2
+Flag of United Kingdom	United Kingdom	66 435 600	242 495 km2
+Flag of United States	United States	329 345 637	9 833 520 km2
+Flag of Uruguay	Uruguay	3 518 552	176 215 km2
+Flag of Uzbekistan	Uzbekistan	34 034 952	447 400 km2
+Flag of Vanuatu	Vanuatu	304 500	12 189 km2
+Flag of Vatican City (Holy See)	Vatican City	799	0.44 km2
+Flag of Venezuela	Venezuela	32 219 521	916 445 km2
+Flag of Vietnam	Vietnam	96 208 984	331 212 km2
+Flag of Yemen	Yemen	29 161 922	527 968 km2
+Flag of Zambia	Zambia	17 381 168	752 612 km2
+Flag of Zimbabwe	Zimbabwe	15 159 624	390 757 km2
