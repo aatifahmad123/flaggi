@@ -35,77 +35,12 @@ body {
     flex: 1;
 }
 
-main.container {
-    padding-top: 3.5rem;
-    /* Add enough space below the header toggle */
-}
-
 /* --- Header & Nav --- */
 header {
+    padding: 0.25rem 0 0.5rem 0;
     text-align: center;
     border-bottom: 3px solid var(--border-color);
     background-color: var(--card-bg);
-    position: relative;
-    z-index: 100;
-}
-
-.header-content {
-    padding-top: 0.25rem;
-    padding-bottom: 1.5rem;
-    /* Increased padding for more space below nav on desktop */
-    transition: max-height 0.4s ease, padding 0.4s ease, opacity 0.3s ease;
-    max-height: 500px;
-    overflow: hidden;
-}
-
-header.collapsed .header-content {
-    max-height: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-    opacity: 0;
-}
-
-.header-toggle-btn {
-    position: absolute;
-    bottom: -28px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: var(--card-bg);
-    border: 3px solid var(--border-color);
-    border-top: none;
-    border-radius: 0 0 12px 12px;
-    width: 60px;
-    height: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    font-size: 0.9rem;
-    color: var(--text-primary);
-    box-shadow: 4px 4px 0px var(--border-color), 4px 0px 0px var(--border-color);
-    /* Added extra shadow to fill top-right gap */
-    z-index: 10;
-    transition: background-color 0.2s ease, transform 0.1s ease, box-shadow 0.1s ease;
-    padding: 0;
-}
-
-.header-toggle-btn:hover {
-    background-color: var(--bg-color);
-}
-
-.header-toggle-btn:active {
-    box-shadow: 2px 2px 0px var(--border-color);
-    transform: translateX(-50%) translateY(2px);
-}
-
-.toggle-icon {
-    transition: transform 0.3s ease;
-    line-height: 1;
-    display: inline-block;
-}
-
-header.collapsed .toggle-icon {
-    transform: rotate(180deg);
 }
 
 h1.logo {
@@ -355,11 +290,10 @@ nav a.active {
     margin-top: 1.5rem;
     font-size: 1.5rem;
     font-weight: 700;
-    min-height: 4rem;
+    min-height: 2.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
 }
 
 .feedback.success {
@@ -457,11 +391,6 @@ footer a:hover {
         padding: 1rem;
     }
 
-    .header-content {
-        padding-bottom: 1.5rem;
-        /* Match consistent spacing from desktop below nav */
-    }
-
     /* Page 1: Flag Grid */
     .filter-controls {
         flex-direction: column;
@@ -548,7 +477,7 @@ footer a:hover {
 
     .feedback {
         font-size: 1.2rem;
-        min-height: 4.5rem;
+        min-height: 2rem;
     }
 
     /* Footer */

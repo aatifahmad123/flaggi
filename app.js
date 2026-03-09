@@ -7,15 +7,6 @@ const state = {
 
 // Initialize app
 document.addEventListener('DOMContentLoaded', () => {
-    // Setup header toggle
-    const headerToggle = document.getElementById('header-toggle');
-    const header = document.getElementById('main-header');
-    if (headerToggle && header) {
-        headerToggle.addEventListener('click', () => {
-            header.classList.toggle('collapsed');
-        });
-    }
-
     Promise.all([
         fetch('codes.json').then(res => res.json()),
         fetch('codes_sovereign.json').then(res => res.json())
