@@ -2,7 +2,8 @@ const state = {
     allCountries: [],
     sovereignCountries: [],
     currentList: [],
-    isSovereignMode: false
+    isSovereignMode: false,
+    streak: 0
 };
 
 // Initialize app
@@ -106,6 +107,8 @@ function initGame() {
         feedback.textContent = `The answer is ${currentTargetCountry.name}.`;
         feedback.className = 'feedback error'; // using error class for the red color
 
+        if (typeof updateStreak === 'function') updateStreak(true);
+
         input.disabled = true;
         revealBtn.style.display = 'none';
 
@@ -191,6 +194,7 @@ function checkAnswer() {
     const correctAnswer = currentTargetCountry.name.toLowerCase();
 
     if (userAnswer === correctAnswer) {
+        if (typeof updateStreak === 'function') updateStreak(false);
         feedback.textContent = `Correct! It's ${currentTargetCountry.name}.`;
         feedback.className = 'feedback success';
 
@@ -213,11 +217,34 @@ function checkAnswer() {
             nextBtn.classList.add('visible');
         }, 10);
     } else {
+        if (typeof updateStreak === 'function') updateStreak(true);
         feedback.textContent = `Incorrect. Try again!`;
         feedback.className = 'feedback error';
 
         // Re-enable input focus for trying again
         input.value = '';
         input.focus();
+    }
+}
+
+function updateStreak(reset = false) {
+    if (reset) {
+        state.streak = 0;
+    } else {
+        state.streak++;
+    }
+    const streakCounter = document.getElementById('streak-counter');
+    if (streakCounter) {
+        streakCounter.textContent = state.streak;
+
+        // Apply color based on magnitude
+        let color = 'grey'; // Default for 0-5
+        if (state.streak >= 50) color = 'red';
+        else if (state.streak >= 31) color = 'orange';
+        else if (state.streak >= 21) color = 'purple';
+        else if (state.streak >= 11) color = 'blue';
+        else if (state.streak >= 6) color = 'green';
+
+        streakCounter.style.color = color;
     }
 }

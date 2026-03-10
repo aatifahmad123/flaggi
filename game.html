@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flaggi Game - Guess the Country</title>
+    <title>FlagGuessr - Guess the Country</title>
     <link rel="stylesheet" href="styles.css">
     <!-- Confetti Library -->
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
@@ -17,7 +17,7 @@
             <h1 class="logo">Flaggi</h1>
             <nav>
                 <a href="index.html">All Flags</a>
-                <a href="game.html" class="active">Guessing Game</a>
+                <a href="game.html" class="active">FlagGuessr</a>
             </nav>
         </div>
     </header>
@@ -29,7 +29,12 @@
             </div>
 
             <div class="input-group">
-                <label for="country-input">What country is this?</label>
+                <div
+                    style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.5rem;">
+                    <label for="country-input" style="margin-bottom: 0;">What country is this?</label>
+                    <span style="font-weight: bold; color: black; font-size: 1rem;">Streak: <span id="streak-counter"
+                            style="color: grey;">0</span></span>
+                </div>
                 <input type="text" id="country-input" class="input-box" placeholder="Start typing..."
                     autocomplete="off">
                 <ul id="suggestions" class="suggestions-list"></ul>
