@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flaggi - Country Flags</title>
+    <title>Flaggi - Flags Library</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="icons8-flag-64.png">
 </head>
@@ -12,17 +12,21 @@
 <body>
     <header>
         <div class="container">
-            <h1 class="logo">Flaggi</h1>
+            <h1 class="logo">
+                <img src="icons8-flag-64.png" alt="Flaggi Icon" width="48" height="48">
+                Flaggi
+            </h1>
             <nav>
-                <a href="index.html" class="active">All Flags</a>
-                <a href="game.html">FlagGuessr</a>
+                <a href="index.html" class="active">Flags Library</a>
+                <a href="flag.html">FlagGuessr</a>
+                <a href="map.html">MapGuessr</a>
             </nav>
         </div>
     </header>
 
     <main class="container">
-        <div class="filter-controls" style="display: flex; justify-content: center; gap: 1rem; margin-bottom: 2rem;">
-            <button id="filter-all" class="filter-btn active">All 254 Countries/Regions</button>
+        <div class="filter-controls">
+            <button id="filter-all" class="filter-btn active">All 254 countries</button>
             <button id="filter-sovereign" class="filter-btn">195 Sovereign States</button>
         </div>
         <div id="flag-grid" class="flag-grid">
