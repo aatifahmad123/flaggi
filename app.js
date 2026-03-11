@@ -262,11 +262,12 @@ function initMapGameSetup() {
     const nextBtn = document.getElementById('next-btn');
     const revealBtn = document.getElementById('reveal-btn');
 
-    // Fetch GeoJSON data
-    fetch('world.geojson')
+    // Fetch TopoJSON data
+    fetch('world_topo.json')
         .then(res => res.json())
         .then(topology => {
-            state.geoJsonData = topology;
+            // Convert TopoJSON to GeoJSON array for D3
+            state.geoJsonData = topojson.feature(topology, topology.objects.world);
 
             // Fetch Sovereign Codes
             fetch('codes_sovereign.json')
