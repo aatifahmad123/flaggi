@@ -446,7 +446,8 @@ footer a:hover {
     fill: var(--card-bg); /* Matches the card styling for land */
     stroke: var(--border-color);
     stroke-width: 0.5px;
-    transition: fill 0.3s ease, stroke-width 0.3s ease;
+    vector-effect: non-scaling-stroke;
+    transition: fill 0.3s ease;
 }
 
 .country-path.highlight {

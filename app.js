@@ -344,8 +344,6 @@ function initMap() {
         .translateExtent([[0, 0], [width, height]])
         .on('zoom', (event) => {
             state.svgGroup.attr('transform', event.transform);
-            // Optionally scale down stroke width when zooming in to keep borders crisp
-            state.mapPaths.style('stroke-width', 0.5 / event.transform.k + 'px');
         });
 
     state.svg.call(state.zoom);
